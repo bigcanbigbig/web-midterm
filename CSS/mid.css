@@ -36,19 +36,19 @@ a{
 	position: fixed;
 }
 .top_color_red{
-	width: 50px;
+	width: 5%;
 	height: 8px;
 	background-color: #D00162;
 	float: left;
 }
 .top_color_green{
-	width: 50px;
+	width: 5%;
 	height: 8px;
 	background-color: #9CCC00;
 	float: left;
 }
 .top_color_blue{
-	width: 50px;
+	width: 5%;
 	height: 8px;
 	background-color: #0191C1;
 	float: left;
@@ -356,4 +356,251 @@ footer{
 	text-align: center;
 	font-family: 'Abel';
 	margin-bottom: 50px;
+}
+@media only screen and (max-width: 940px) {
+.wrapper{
+	width:640px;
+	margin: auto;
+}
+.header{
+	height: 168px;
+	width: 100%;
+	margin-bottom: 0;
+}
+.logo{
+	text-indent: -3333px;
+	width: 171px;
+	height: 81px;
+	float: left;
+	margin: 0;
+}
+.logo h1{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.header_right{
+	height: auto;
+	width: 100%;
+	float: right;
+}
+.fb_tweet{
+	padding-right: 5px;
+}
+.img_fb{
+	float: right;
+	margin-right: 5px;
+}
+.img_fb:hover{
+	float: right;
+	opacity: 0.5;
+	margin-right: 5px;
+}
+.img_tweet{
+	margin-right: 5px;
+	float: right;
+}
+.img_tweet:hover{
+	margin-right: 5px;
+	float: right;
+	opacity: 0.5;
+}
+.menu{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin: auto;
+}
+.menu_content{
+	width: 105px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	float: right;
+	margin-left: 0;
+}
+.menu_content:hover{
+	width: 105px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	float: right;
+	margin-left: 0;
+}
+.menu_content_About{
+	width: 105px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	float: right;
+	margin-left: 0;
+}
+.menu_content_About:hover{
+	width: 105px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	float: right;
+	margin-left: 0;
+}
+.ad{
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.ad_pic{
+	float: none;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.ad_word{
+	width: 600px;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	float: none;	
+	margin: auto;
+}
+.information{
+	width: 600px;
+	height: auto;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.content{
+	width: 600px;
+	height: auto;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.event{
+	width: 94%;
+	height: auto;
+	float: none;
+	margin-right: 0;
+	margin-bottom: 40px;
+}
+.service_and_find{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+}
+@media only screen and (max-width: 640px) {
+.wrapper{
+	width:96%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.ad_word{
+	width: 96%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.information{
+	width: 96%;
+	height: auto;
+	padding: 2%;
+	margin-bottom: 20px;
+}
+.content{
+	width: 94%;
+	height: auto;
+	padding: 3%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.content h3{
+	line-height: 1;
+}
+.event{
+	width: 94%;
+	height: auto;
+	float: none;
+	margin-right: 0;
+	margin-bottom: 40px;
+}
+.event_yoga{
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-bottom: 30px;
+}
+.event_ball{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+.event_pic{
+	float: none;
+	max-width: 100%;
+}
+.event_pic:hover{
+	float: none;
+	max-width: 100%;
+}
+.event_word{
+	width: 100%;
+	height: auto;
+	margin-left: 0;
+	float: none;
+	font-family: 'Abel';
+}
+}
+@media only screen and (max-width: 630px) {
+.header{
+	height: 232px;
+	margin-bottom: 0;
+}
+.menu_content{
+	float:left;
+}
+.menu_content:hover{
+	float:left;
+}
+.menu_content_About{
+	float:left;
+}
+.menu_content_About:hover{
+	float: left;
+}
+}
+@media only screen and (max-width: 315px) {
+.header{
+	height: 296px;
+	margin-bottom: 0;
+}
+}
+@media only screen and (max-width: 210px) {
+.header{
+	height: 488px;
+}
+.menu_content{
+	float: none;
+	margin: auto;
+}
+.menu_content:hover{
+	float: none;
+	margin: auto;
+}
+.menu_content_About{
+	float: none;
+	margin: auto;
+}
+.menu_content_About:hover{
+	float: none;
+	margin: auto;
+}
 }
